@@ -92,7 +92,6 @@ h1{
     top:0;
     left:0;
     z-index:9999;
-  	/*padding:1em;*/
   	-webkit-transition: all .1s ease-in-out;
   	transition: all .1s ease-in-out;
 }
@@ -339,7 +338,6 @@ h1{
 .wk{
 	clear:both;
 	text-align: center;
-	width:100%;
 	padding:4em 0 1em 0;
 	margin: 10em auto 10em auto;
 }
@@ -395,52 +393,106 @@ h1{
 	vertical-align:top;
 }
 
-/*ACTIVITIES*/
 
-.act{
+/*PROJECTS AND LEADERSHIP*/
+.proj{
+	clear:both;
+	text-align: center;
+	padding:4em 0 1em 0;
+	margin: 10em auto 10em auto;
+}
+
+.proj img{
+	width:20%;
+	margin: 2em auto 2em auto;
+}
+
+.proj-item{
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  	background-size: cover;
+  	background-attachment: fixed;
+  	padding:1.5em;
+  	/*border-radius: .8em;*/
+  	border: solid white .1em; 
+  	margin-top:1.2em;
+  	margin-right: .6em;
+  	margin-left: .6em;
+}
+
+.proj-item h2{
+	font-size:1.1em;
+	color:black;
+	font-weight:700;	
+}
+
+.proj-item h3{
+	font-size:1.1em;
+	color: white;
+	font-weight:700;
+}
+
+.proj-item p{
+	font-size:1em;
+}
+
+.proj-left{
+	display:inline-block;
+	width:45%;
+	vertical-align:top;
+}
+
+.proj-right{
+	display:inline-block;
+	width:45%;
+	vertical-align:top;
+}
+
+/*ORGANIZATIONS*/
+
+.org{
 	text-align: center;
 	width:100%;
 	padding:4em 0 1em 0;
 	margin: 10em auto 10em auto;
 }
 
-.act img{
+.org img{
 	position:relative;
 	-webkit-filter: grayscale(1);
 }
 
-.act img:hover{
+.org img:hover{
 	-webkit-filter: grayscale(0);
 	-ms-transition: all .3s linear;
 	-o-transition: all .3s linear;
 	transition: all .3s linear;
 }
 
-.act-1{
+.org-1{
 	display:inline-block;
 	width:23%;
 	vertical-align: top;
 }
 
-.act-2{
+.org-2{
 	display:inline-block;
 	width:23%;
 	vertical-align: top;
 }
 
-.act-3{
+.org-3{
 	display:inline-block;
 	width:23%;
 	vertical-align: top;
 }
 
-.act-4{
+.org-4{
 	display:inline-block;
 	width:23%;
 	vertical-align: top;
 }
 
-.act-item{
+.org-item{
 	border: .13em solid white;
 	border-radius: .5em;
 	padding:.8em;
@@ -449,17 +501,17 @@ h1{
 	margin-left:.4em;
 }
 
-.act-item h2{
+.org-item h2{
 	font-size:1.3em;
 	color:black;
 	font-weight:700;	
 }
 
-.act-item p{
+.org-item p{
 	font-size:1em;
 }
 
-.act-item img{
+.org-item img{
 	max-width:100%;
 	max-height:100%;
 	border-radius: .5em;
@@ -516,6 +568,6 @@ h1{
 #go img{
 	float:right;
 	height:4em; 
-	margin-top: 5em;
+	margin-top: 4em;
 	margin-bottom: 1em;
 }
