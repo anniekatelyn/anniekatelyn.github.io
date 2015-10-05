@@ -1083,7 +1083,7 @@ html {
 }
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #d5d6e3 ;
+  background-color: #d5d6e3;
 }
 input,
 button,
@@ -4558,9 +4558,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-weight:400;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav > li > a:hover/*,*/
-/*.navbar-default .navbar-nav > li > a:focus */{
+.navbar-default .navbar-nav > li > a:hover{
   color: #cdced5;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  /*color: #cdced5;*/
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
