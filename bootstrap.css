@@ -4348,7 +4348,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 8px;
   background-image: none;
   background-color: white;
-  border: 1px solid transparent;
+  border: .5px solid transparent;
   border-radius: 4px;
 }
 .navbar-toggle:focus {
@@ -4540,7 +4540,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background: rgba(255,255,255,.3);
+  background: rgba(255,255,255,.7);
 }
 .navbar-default .navbar-brand {
   color: #777;
