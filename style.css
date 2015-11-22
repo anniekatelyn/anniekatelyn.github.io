@@ -171,7 +171,7 @@ h1{
 .ab>p{
 	/*text-align: left;*/
 	font-size: 1em;
-	width: 40em;
+	width: 50%;
 	margin:auto;
 }
 
@@ -419,14 +419,14 @@ h1{
 .proj-left{
 	display:inline-block;
 	/*width:45%;*/
-	width: 35em;
+	width: 30em;
 	vertical-align:top;
 }
 
 .proj-right{
 	display:inline-block;
 	/*width:45%;*/
-	width: 35em;
+	width: 30em;
 	vertical-align:top;
 }
 
