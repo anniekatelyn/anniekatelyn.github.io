@@ -244,6 +244,7 @@ h1{
 	width:20em;
 	display:inline-block;
 	vertical-align: top;
+	margin-bottom: 2em;
 }
 
 .ed-right{
@@ -251,6 +252,7 @@ h1{
 	width:20em;
 	display:inline-block;
 	vertical-align: top;
+	margin-bottom: 2em;
 }
 
 .ed-school h2{
@@ -292,6 +294,7 @@ h1{
 	width:20em;
 	display:inline-block;
 	vertical-align: top;
+	margin-bottom: 2em;
 }
 
 .ed-skills img{
@@ -356,21 +359,21 @@ h1{
 .wk-left{
 	display:inline-block;
 	/*width:30%;*/
-	width:24em;
+	width:23em;
 	vertical-align:top;
 }
 
 .wk-center{
 	display:inline-block;
 	/*width:30%;*/
-	width:24em;
+	width:23em;
 	vertical-align:top;
 }
 
 .wk-right{
 	display:inline-block;
 	/*width:30%;*/
-	width:24em;
+	width:23em;
 	vertical-align:top;
 }
 
