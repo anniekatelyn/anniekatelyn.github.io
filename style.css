@@ -164,7 +164,7 @@ h1{
 }
 
 .ab img{
-	width:15%;
+	width:15em;
 	margin-bottom: 2em;
 }
 
@@ -217,7 +217,7 @@ h1{
 }
 
 .ed>img{
-	width:20%;
+	width:15em;
 	margin-bottom: 1em;
 	margin-top:2em;
 }
@@ -321,7 +321,7 @@ h1{
 }
 
 .wk img{
-	width:20%;
+	width:15em;
 	margin: 2em auto 2em auto;
 }
 
@@ -356,21 +356,21 @@ h1{
 .wk-left{
 	display:inline-block;
 	/*width:30%;*/
-	width:25em;
+	width:24em;
 	vertical-align:top;
 }
 
 .wk-center{
 	display:inline-block;
 	/*width:30%;*/
-	width:25em;
+	width:24em;
 	vertical-align:top;
 }
 
 .wk-right{
 	display:inline-block;
 	/*width:30%;*/
-	width:25em;
+	width:24em;
 	vertical-align:top;
 }
 
@@ -418,15 +418,13 @@ h1{
 
 .proj-left{
 	display:inline-block;
-	/*width:45%;*/
-	width: 30em;
+	width:45%;
 	vertical-align:top;
 }
 
 .proj-right{
 	display:inline-block;
-	/*width:45%;*/
-	width: 30em;
+	width:45%;
 	vertical-align:top;
 }
 
