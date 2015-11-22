@@ -71,13 +71,13 @@ h1{
   	transition: all .1s ease-in-out;
 }
 
-.navbar-brand img{
+/*.navbar-brand img{
 	max-height: 175%;
 	max-width: 175%;
 	vertical-align: top;
 	margin-top: -5px;
 	margin-left: 5px;
-}
+}*/
 /*HEADER*/
 
 .header{
@@ -352,19 +352,22 @@ h1{
 
 .wk-left{
 	display:inline-block;
-	width:30%;
+	/*width:30%;*/
+	width:25em;
 	vertical-align:top;
 }
 
 .wk-center{
 	display:inline-block;
-	width:30%;
+	/*width:30%;*/
+	width:25em;
 	vertical-align:top;
 }
 
 .wk-right{
 	display:inline-block;
-	width:30%;
+	/*width:30%;*/
+	width:25em;
 	vertical-align:top;
 }
 
