@@ -177,6 +177,7 @@ h1{
 
 .ab h2{
 	font-family: 'Lato', sans-serif;
+	letter-spacing: .15em;
 	font-size: 1.5em;
 	color:white;
 }
@@ -227,7 +228,7 @@ h1{
 	width:70%;
 }
 .ed-quote q{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Reenie Beanie', sans-serif;
 	font-size: 1.5em;
 	color:white;
 }
@@ -235,8 +236,9 @@ h1{
 .ed-quote p{
 	margin: auto;
 	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	color:white;
+	letter-spacing: .1em;
 }
 
 .ed-left{
