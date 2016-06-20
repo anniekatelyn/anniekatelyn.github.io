@@ -64,24 +64,14 @@ h2{
 /*HEADER*/
 
 .header{
-	padding:10em 0 30em 0;
+	padding:3em 0 20em 0;
 	width: 100%;
 	text-align: center;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 }
 
-.header-left{
-	display: inline-block;
-	margin:1em;
-}
-
-.header-left img{
-	max-width: 100%;
-    height: auto;
-    width: auto\9;
+.header img{
+	padding: 1em 0 0 0;
+	width: 100%;
 }
 
 .header-right{
