@@ -1,15 +1,9 @@
-html{
-	/*background: url(images/watercolor.jpg);*/
-	background-color: #cadae7;
-	/*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), url(../images/watercolor.jpg);*/
-	/*background-size: cover;
-	background-attachment: fixed; */
-}
-
 body{
 	font-family: 'Lato', sans-serif;
 	background-color: #cadae7;
-
+	/*background: linea r-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url(images/dukebrick.jpg) no-repeat center center; 
+	background-size: cover;
+	background-attachment: fixed; */
 }
 
 @font-face{
@@ -22,11 +16,7 @@ body{
 	font-weight:bold;
 	src: url(fonts/Lato/Lato-Bold.ttf);
 }
-@font-face{
-	font-family:'Lato';
-	font-weight:400;
-	src: url(fonts/Lato/Lato-Regular.ttf);
-}
+
 @font-face{
 	font-family:'Raleway';
 	src: url(fonts/Raleway/Raleway-Medium.ttf);
@@ -38,15 +28,9 @@ body{
 	src: url(fonts/Raleway/Raleway-ExtraBold.ttf);
 }
 
-@font-face{
-	font-family:'Reenie Beanie';
-	src: url(fonts/Reenie_Beanie/ReenieBeanie.ttf);
-}
-
 p{
-	font-family: 'Lato', sans-serif;
 	line-height: 1.8em;
- 	font-size: 1.1em;
+ 	font-size: 1em;
  	color: #000000;
  	font-weight: 300;
 }
@@ -55,11 +39,17 @@ h1{
 	font-family: 'Raleway', sans-serif;
 	color: black;
 	font-size:2.5em;
-	font-weight:500;
 	letter-spacing: .5em;
 	margin-top:2em;
 }
 
+h2{
+	color:black;
+	font-size:1.1em;
+	color:black;
+	font-weight:bold;	
+
+}
 /*MENU*/
 
 .navbar {
@@ -71,20 +61,12 @@ h1{
   	transition: all .1s ease-in-out;
 }
 
-/*.navbar-brand img{
-	max-height: 175%;
-	max-width: 175%;
-	vertical-align: top;
-	margin-top: -5px;
-	margin-left: 5px;
-}*/
 /*HEADER*/
 
 .header{
 	padding:10em 0 30em 0;
 	width: 100%;
 	text-align: center;
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url(images/home.jpeg) no-repeat center center; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -134,16 +116,15 @@ h1{
 
 /*CS/STATS*/
 .header-right h2{
-	/*font-size: 3.5vw;*/
 	font-size: 3em;
 	font-weight: 300;
   	color: #ffffff;
   	letter-spacing: .2em;
   	margin: .5em auto .5em auto;
 }
+
 /*DUKE UNIVERSITY*/
 .header-right h3{
-	/*font-size:1vw;*/
 	font-size: .8em;
 	color:#ffffff;
 	font-weight:500;
@@ -154,7 +135,6 @@ h1{
 }
 
 /*ABOUT*/
-
 .ab{
 	clear:both;
 	text-align: center;
@@ -169,24 +149,28 @@ h1{
 }
 
 .ab>p{
-	/*text-align: left;*/
-	font-size: 1em;
 	width: 50%;
 	margin:auto;
 }
 
-.ab h2{
-	font-family: 'Lato', sans-serif;
+.ab h1{
 	letter-spacing: .15em;
 	font-size: 1.5em;
+	color:white;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.ab h2{
+	letter-spacing: .15em;
+	font-size: 1.2em;
+	font-weight: 500;
 	color:white;
 }
 
 .ab span{
 	font-size:.8em;
-	font-family: 'Lato', sans-serif;
 	color:black;
-	font-weight: 300;
 }
 
 .ab-bits{
@@ -198,13 +182,6 @@ h1{
 	margin:auto;
 }
 
-.ab-pics img{
-	width:8%;
-	height: 10%;
-	margin: .5em;
-	border:white 3px solid;
-	border-radius: 100%;
-}
 /*EDUCATION*/
 
 .ed{
@@ -213,32 +190,14 @@ h1{
 	margin: 10em auto 10em auto;
 }
 
-.ed p{
-	font-size: 1em;
-}
-
 .ed>img{
 	width:15em;
 	margin-bottom: 1em;
 	margin-top:2em;
 }
 
-.ed-quote{
-	margin:2em auto 2em auto;
-	width:70%;
-}
-.ed-quote q{
-	font-family: 'Reenie Beanie', sans-serif;
-	font-size: 1.8em;
-	color:white;
-}
-
-.ed-quote p{
-	margin: auto;
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-	color:white;
-	letter-spacing: .1em;
+.ed h2{
+	font-size:1.3em;
 }
 
 .ed-left{
@@ -257,21 +216,9 @@ h1{
 	margin-bottom: 2em;
 }
 
-.ed-school h2{
-	font-size:1.3em;
-	color:black;
-	font-weight:700;
-}
-
 .ed-school h3{
 	font-size:1.3em;
 	color: white;
-	font-weight:700;
-}
-
-.ed-school h4{
-	font-size:1em;
-	color:black;
 	font-weight:700;
 }
 
@@ -287,6 +234,7 @@ h1{
     text-decoration: none;
     font-weight: bold;
 }
+
 #hidden{
 	display:none;
 }
@@ -335,46 +283,32 @@ h1{
   	background-size: cover;
   	background-attachment: fixed;
   	padding:1.5em;
-  	/*border: .13em solid white;*/
   	border-radius: .8em;
   	margin-top:2em;
   	margin-right: 1em;
   	margin-left: 1em;
 }
 
-.wk-item h2{
-	font-size:1.1em;
-	color:black;
-	font-weight:700;	
-}
-
 .wk-item h3{
 	font-size:1.1em;
 	color: white;
-	font-weight:700;
-}
-
-.wk-item p{
-	font-size:1em;
+	font-weight:bold;
 }
 
 .wk-left{
 	display:inline-block;
-	/*width:30%;*/
 	width:23em;
 	vertical-align:top;
 }
 
 .wk-center{
 	display:inline-block;
-	/*width:30%;*/
 	width:23em;
 	vertical-align:top;
 }
 
 .wk-right{
 	display:inline-block;
-	/*width:30%;*/
 	width:23em;
 	vertical-align:top;
 }
@@ -405,20 +339,10 @@ h1{
   	margin-left: .6em;
 }
 
-.proj-item h2{
-	font-size:1.1em;
-	color:black;
-	font-weight:700;	
-}
-
 .proj-item h3{
 	font-size:1.1em;
 	color: white;
 	font-weight:700;
-}
-
-.proj-item p{
-	font-size:1em;
 }
 
 .proj-left{
@@ -494,18 +418,13 @@ h1{
 .org-item h2{
 	font-size:1.3em;
 	color:black;
-	font-weight:700;	
-}
-
-.org-item p{
-	font-size:1em;
+	font-weight:bold;
 }
 
 .org-item img{
 	max-width:100%;
 	max-height:100%;
 	border-radius: .5em;
-	/*opacity: 0.8;*/
 }
 
 
@@ -518,23 +437,23 @@ h1{
 }
 
 .con>p{
-	font-family: 'Reenie Beanie', cursive;
-	font-size: 2em;
+	font-size: 1.8em;
 	color:white;
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
 
 .con-info{
 	width:60%;
 	display:inline-block;
 	margin-top: -2em;
+	margin-bottom: 5em;
 }
 
 .con-info p{
 	list-style-type:none;
 	font-size:1.3em;
 	color:black;
-	font-weight:400;
-	line-height:2em;
 	letter-spacing: 2px;
 }
 
@@ -550,11 +469,4 @@ h1{
 .con-info a:hover{
 	color:white;
 	text-decoration:none;
-}
-
-#go img{
-	float:right;
-	height:4em; 
-	margin-top: 4em;
-	margin-bottom: 1em;
 }
