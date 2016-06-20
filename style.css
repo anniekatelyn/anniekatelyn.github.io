@@ -64,14 +64,25 @@ h2{
 /*HEADER*/
 
 .header{
-	padding:3em 0 20em 0;
+	padding:6em 0 15em 0;
 	width: 100%;
 	text-align: center;
 }
 
-.header img{
-	padding: 1em 0 0 0;
+/*.header-left{
+	font-family: 'Consolas';
+	text-align: left;
+	font-size: 1em;
 	width: 100%;
+	-webkit-transform: rotate(-90deg);   
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}*/
+.header img{
+	width: 100%;
+	padding-top: 5em;
 }
 
 .header-right{
