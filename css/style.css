@@ -141,6 +141,7 @@ h2{
 /*ABOUT*/
 .about{
 	text-align: center;
+	vertical-align: bottom;
 	padding-top:5em;
 	width:100%;
 }
