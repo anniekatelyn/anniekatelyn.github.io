@@ -118,6 +118,9 @@ h2{
 	font-size:.7em;
 	color: #D1C0DD;
 	text-align: center;
+	position:fixed;
+	bottom:0;
+	left:0;
 }
 
 .binarygraph {
@@ -285,7 +288,7 @@ h2{
   	background-size: cover;
   	background-attachment: fixed;
   	padding:1.5em;
-  	/*border-radius: .8em;*/
+  	border-radius: .8em;
   	border: solid white .1em; 
   	margin-top:1.2em;
   	margin-right: .6em;
