@@ -125,13 +125,12 @@ h2{
 
 .binarygraph {
 	margin-top: -63em;
-	/*position:fixed;*/
-	/*bottom:0;*/
 	font-family: 'Consolas';
 	text-align: left;
-	width:25%;
+	font-size: 1em;
+	font-weight: 300;
 	transform: rotate(-90deg);
-	transform-origin: left top 0;
+	transform-origin: right bottom 1;
 	width: 100%;
 }
 
