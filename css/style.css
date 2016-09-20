@@ -118,6 +118,9 @@ h2{
 	font-size:.7em;
 	color: #D1C0DD;
 	text-align: center;
+	position:fixed;
+	bottom:0;
+	width: 100%;
 }
 
 .binarygraph {
@@ -138,6 +141,7 @@ h2{
 /*ABOUT*/
 .about{
 	text-align: center;
+	vertical-align: bottom;
 	padding-top:5em;
 	width:100%;
 }
@@ -194,7 +198,7 @@ h2{
 
 .ed{
 	text-align: center;
-	margin-top: 8em;
+	margin-top: 10em;
 }
 
 .ed img{
@@ -285,7 +289,7 @@ h2{
   	background-size: cover;
   	background-attachment: fixed;
   	padding:1.5em;
-  	/*border-radius: .8em;*/
+  	border-radius: .8em;
   	border: solid white .1em; 
   	margin-top:1.2em;
   	margin-right: .6em;
@@ -356,7 +360,7 @@ h2{
 
 .con{
 	text-align: center;
-	margin-top: 6em;
+	margin-top: 8em;
 }
 
 .con>p{
