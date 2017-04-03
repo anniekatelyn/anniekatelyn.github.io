@@ -181,6 +181,7 @@ h2{
 .about #right{
 	width: 35%;
 	display: inline-block;
+	margin-bottom:1.5em;
 }
 
 .about #right p{
