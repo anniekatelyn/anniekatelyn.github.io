@@ -1,41 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <description></description>
-    <link>http://www.anniekatelyntang.com//</link>
-    <atom:link href="http://www.anniekatelyntang.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 00:15:06 -0500</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 00:15:06 -0500</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://anniekatelyn.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://anniekatelyn.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://anniekatelyn.github.io/" rel="alternate" type="text/html" /><updated>2017-07-22T10:53:25-04:00</updated><id>https://anniekatelyn.github.io/</id><title type="html">Annie K Tang</title><subtitle>C.S. | Stats</subtitle><entry><title type="html">AT&amp;amp;T</title><link href="https://anniekatelyn.github.io/research-labs/" rel="alternate" type="text/html" title="AT&amp;T" /><published>2017-06-01T00:00:00-04:00</published><updated>2017-06-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/research-labs</id><content type="html" xml:base="https://anniekatelyn.github.io/research-labs/">&lt;ul&gt;
+	&lt;li&gt;Data science research intern&lt;/li&gt;
+	&lt;li&gt;Applied neural networks and other machine learning methods to software defined networking and virtual network functions.&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">Research Labs Intern</summary></entry><entry><title type="html">Blue Devil Resistome</title><link href="https://anniekatelyn.github.io/resistome/" rel="alternate" type="text/html" title="Blue Devil Resistome" /><published>2017-05-01T00:00:00-04:00</published><updated>2017-05-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/resistome</id><content type="html" xml:base="https://anniekatelyn.github.io/resistome/">&lt;ul&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+	&lt;li&gt; &lt;a href=&quot;https://bassconnections.duke.edu/&quot; target=&quot;_blank&quot;&gt;Bass Connections&lt;/a&gt;: Duke University wide, interdisciplinary research initiative. 
+	&lt;li&gt;Selected to work alongside Duke Biomedical Engineering faculty on the Blue Devil Resistome Project, which aims to better understand the potential risks associated with healthcare centers, environmental microbes, and infectious diseases through mapping the distribution of antibiotic-resistance genes across the Duke campus.&lt;/li&gt;
+	&lt;li&gt;Assist with data analysis and development of computational tools for analyzing and disseminating data&lt;/li&gt;
+&lt;/li&gt;&lt;/ul&gt;</content><summary type="html">Bass Connections</summary></entry><entry><title type="html">ProtoStar</title><link href="https://anniekatelyn.github.io/protostar/" rel="alternate" type="text/html" title="ProtoStar" /><published>2017-01-01T00:00:00-05:00</published><updated>2017-01-01T00:00:00-05:00</updated><id>https://anniekatelyn.github.io/protostar</id><content type="html" xml:base="https://anniekatelyn.github.io/protostar/">&lt;p&gt;Working alongside PhD student and faculty in Duke’s Department of Computer Science on creation of an interactive tool to improve online big data query performance analysis through the use of large-scale, multi-level, directed acyclic dependency graphs.&lt;/p&gt;</content><summary type="html">Duke Department of Computer Science</summary></entry><entry><title type="html">Cameron Crazies</title><link href="https://anniekatelyn.github.io/cameron-crazies/" rel="alternate" type="text/html" title="Cameron Crazies" /><published>2016-09-01T00:00:00-04:00</published><updated>2016-09-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/cameron-crazies</id><content type="html" xml:base="https://anniekatelyn.github.io/cameron-crazies/">&lt;p&gt;Created an iOS application for Duke students to use during tenting season to coordinate schedules, keep up with tent checks and K-Ville events, etc.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 10 Aug 2016 19:25:24 -0500</pubDate>
-        <link>http://www.anniekatelyntang.com//jekyll/update/2016/08/10/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://www.anniekatelyntang.com//jekyll/update/2016/08/10/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;em&gt;Tenting: Duke students form organized groups and sleep in tents from January - February in order to secure spots in the yearly Duke-UNC home game at Cameron Indoor Stadium. There’s a reason why we call ourselves the Cameron Crazies.&lt;/em&gt;&lt;/p&gt;</content><summary type="html">iOS Application</summary></entry><entry><title type="html">AT&amp;amp;T</title><link href="https://anniekatelyn.github.io/att-recruiting/" rel="alternate" type="text/html" title="AT&amp;T" /><published>2016-09-01T00:00:00-04:00</published><updated>2016-09-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/att-recruiting</id><content type="html" xml:base="https://anniekatelyn.github.io/att-recruiting/">&lt;p&gt;
+	Assist AT&amp;amp;T recruiters as a representative at Duke University, inform students of and speak on new opportunities.
+&lt;/p&gt;</content><summary type="html">College Recruiting Ambassador</summary></entry><entry><title type="html">AT&amp;amp;T</title><link href="https://anniekatelyn.github.io/big-data/" rel="alternate" type="text/html" title="AT&amp;T" /><published>2016-06-01T00:00:00-04:00</published><updated>2016-06-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/big-data</id><content type="html" xml:base="https://anniekatelyn.github.io/big-data/">&lt;ul&gt;
+	&lt;li&gt; Applied graph database Neo4j (first in AT&amp;amp;T Big Data to utilize this technology) and other statistical tools to data-driven analyses of
+employee productivity, automation opportunities, and resource management.&lt;/li&gt;
+	&lt;li&gt; Aided in key decision-making processes that resulted in XX% increase in employee productivity.&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">Big Data Intern</summary></entry><entry><title type="html">Google</title><link href="https://anniekatelyn.github.io/google-codeu/" rel="alternate" type="text/html" title="Google" /><published>2016-03-01T00:00:00-05:00</published><updated>2016-03-01T00:00:00-05:00</updated><id>https://anniekatelyn.github.io/google-codeu</id><content type="html" xml:base="https://anniekatelyn.github.io/google-codeu/">&lt;ul&gt;
+  &lt;li&gt;Exclusive development program to strengthen technical skills, through an online technical development curriculum and final programming project. Program culminates in an all-expense paid summit at Google in August 2016. &lt;/li&gt;
+  &lt;li&gt; Matched with a Google mentor to participate in mock interviews and meet regularly with throughout the program &lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">CodeU</summary></entry><entry><title type="html">Duke Department of Computer Science</title><link href="https://anniekatelyn.github.io/teaching-assistant/" rel="alternate" type="text/html" title="Duke Department of Computer Science" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>https://anniekatelyn.github.io/teaching-assistant</id><content type="html" xml:base="https://anniekatelyn.github.io/teaching-assistant/">&lt;p&gt;
+Responsibilities include holding weekly office hours (both in-person and online), teaching lab sections, and grading.
+&lt;/p&gt;</content><summary type="html">Computer Architecture Teaching Assistant</summary></entry><entry><title type="html">AnnieKatelynTang.com</title><link href="https://anniekatelyn.github.io/website/" rel="alternate" type="text/html" title="AnnieKatelynTang.com" /><published>2015-05-01T00:00:00-04:00</published><updated>2015-05-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/website</id><content type="html" xml:base="https://anniekatelyn.github.io/website/">&lt;p&gt;Created personal website using CSS, JavaScript, and HTML; integrated Jekyll and Github’s hosting platform.&lt;/p&gt;</content><summary type="html">Pretty much what you're seeing right now.</summary></entry><entry><title type="html">Data+, Information Initiative at Duke</title><link href="https://anniekatelyn.github.io/data-plus/" rel="alternate" type="text/html" title="Data+, Information Initiative at Duke" /><published>2015-05-01T00:00:00-04:00</published><updated>2015-05-01T00:00:00-04:00</updated><id>https://anniekatelyn.github.io/data-plus</id><content type="html" xml:base="https://anniekatelyn.github.io/data-plus/">&lt;ul&gt;
+	&lt;li&gt;One of three students selected by mathematics department for a paid summer data science initiative&lt;/li&gt;
+	&lt;li&gt;Applied machine learning algorithms such as linear discriminant analysis, random forests, and k-means to predict individual risk behavior preference, culminating in a predictive model 40% more accurate than previously available models&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">Data Science Researcher</summary></entry></feed>
