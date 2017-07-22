@@ -9,7 +9,7 @@ comments: false
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
 
 <!-- <img src="authorphoto.png" alt="AuthorPhoto" style="width: 150px;"/> -->
-<img src="{{ site.baseurl }}/assets/img/stat.png">
+<a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/img/stat.png"></a>
 
 ## Education
 **Duke University, 2018**  
