@@ -16,12 +16,12 @@ comments: false
 *Durham, NC*
 * Statistical Science, B.S.
 * Computer Science, B.S.
-* 3.7/4.0  
+<!-- * 3.7/4.0   -->
 
 **High Technology High School, 2014**  
 *Lincroft, NJ*
 * #1 STEM School in the Nation (US News & World Report)
-* 96.5/100
+<!-- * 96.5/100 -->
 
 ## Skills  
 **Python | Java | C | R**  
