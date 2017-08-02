@@ -4,7 +4,7 @@ title:  "Blue Devil Resistome"
 <!-- date:   2016-03-15 -->
 startdate: "May 2017"
 year: "2017-"
-excerpt: "Bass Connections"
+excerpt: "Research - Bass Connections"
 project: true
 ---
 <ul>
