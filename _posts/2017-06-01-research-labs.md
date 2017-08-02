@@ -9,6 +9,7 @@ excerpt: "Research Labs Intern"
 comments: false
 ---
 <ul>
-	<li>Data science research intern</li>
-	<li>Applied neural networks and other machine learning methods to software defined networking and virtual network functions.</li>
+	<li>Data science researcher in Software Defined Networking (SDN) organization </li>
+	<li>Implemented Optical Character Recognition (OCR) and Long Short Term Memory (LSTM) neural networks to automate day-0 configuration and set-up of Virtualized Network Functions (VNFs).</li>
+<!-- 	<li>Applied deep, convolutional neural networks to multi-factor authentication and security in the form of a face recognition tool. </li> -->
 </ul>
