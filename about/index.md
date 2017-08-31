@@ -5,11 +5,9 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
-    
-<!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
 
-<!-- <img src="authorphoto.png" alt="AuthorPhoto" style="width: 150px;"/> -->
-<a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/img/stat.png"></a>
+<!-- <a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/img/stat.png"></a> -->
+<center><a class="btn zoombtn" href="{{site.url}}"><i class="fa fa-home"></i></a></center>
 
 ## Education
 **Duke University, 2018**  
@@ -28,7 +26,7 @@ comments: false
 SQL | HiveQL | Hadoop | TensorFlow | CSS | HTML | Swift | Git | JavaScript | MIPS Assembly | Cypher (Neo4j query language) | Microsoft Power BI
 
 ## Relevant Undergraduate Coursework
-Design & Analysis of Algorithms | Software Design & Implementation | Operating Systems | Introduction to Databases | Bayesian & Modern Statistics | Statistical Case Studies | Machine Learning & Data Mining | Statistical Inference | Regression Analysis | Probability | Algorithms & Data Structures | Computer Architecture | Discrete Mathematics | Linear Algebra | Multivariable Calculus
+Design & Analysis of Algorithms | Software Design & Implementation | Operating Systems | Introduction to Databases | Bayesian & Modern Statistics | Statistical Case Studies | Statistical Decision Analysis | Statistical Inference | Regression Analysis | Probability | Algorithms & Data Structures | Computer Architecture | Discrete Mathematics | Linear Algebra | Multivariable Calculus
 
 <!-- {% capture images %}
     skills/python.png skills/java.png skills/c.png skills/r.png

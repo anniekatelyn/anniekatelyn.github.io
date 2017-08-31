@@ -47,6 +47,7 @@ github-url:         anniekatelyn
 linkedin:           anniekatelyntang
 #xing:              username
 instagram:          anniekatelyntang
+resume:             true
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -63,7 +64,6 @@ instagram:          anniekatelyntang
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-# resume:             AnnieKTang_Resume.pdf
 
 # Gems
 gems:
