@@ -7,8 +7,9 @@ comments: false
 ---
 
 <!-- <a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/img/stat.png"></a> -->
+<!-- <img src="{{ site.baseurl }}/{{ site.authorphotosmall }}" alt="{{ site.title }} photo">
+ -->
 <center><a class="btn zoombtn" href="{{site.url}}"><i class="fa fa-home"></i></a></center>
-
 ## Education
 **Duke University, 2018**  
 *Durham, NC*
