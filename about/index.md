@@ -5,11 +5,20 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
+<!--
+<style>
+.callout {float:left; display:block;}
+</style>
+-->
 
-<!-- <a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/img/stat.png"></a> -->
-<!-- <img src="{{ site.baseurl }}/{{ site.authorphotosmall }}" alt="{{ site.title }} photo">
- -->
+![AuthorPhoto](authorphoto.jpeg){: .callout}
+
 <center><a class="btn zoombtn" href="{{site.url}}"><i class="fa fa-home"></i></a></center>
+
+<!-- <img src="authorphoto.png" alt="{{ site.title }} photo" img style="float: right;"> -->
+
+
+
 ## Education
 **Duke University, 2018**  
 *Durham, NC*
@@ -23,8 +32,8 @@ comments: false
 <!-- * 96.5/100 -->
 
 ## Skills  
-**Python | Java | C | R**  
-SQL | HiveQL | Hadoop | TensorFlow | CSS | HTML | Swift | Git | JavaScript | MIPS Assembly | Cypher (Neo4j query language) | Microsoft Power BI
+**Python | Java **  
+C | R | SQL | HiveQL | Hadoop | TensorFlow | CSS | HTML | Swift | Git | JavaScript | MIPS Assembly | Cypher (Neo4j query language) | Microsoft Power BI
 
 ## Relevant Undergraduate Coursework
 Design & Analysis of Algorithms | Software Design & Implementation | Operating Systems | Introduction to Databases | Bayesian & Modern Statistics | Statistical Case Studies | Statistical Decision Analysis | Statistical Inference | Regression Analysis | Probability | Algorithms & Data Structures | Computer Architecture | Discrete Mathematics | Linear Algebra | Multivariable Calculus
