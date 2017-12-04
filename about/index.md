@@ -32,7 +32,7 @@ comments: false
 <!-- * 96.5/100 -->
 
 ## Skills  
-**Python | Java **  
+**Python | Java**  
 C | R | SQL | HiveQL | Hadoop | TensorFlow | CSS | HTML | Swift | Git | JavaScript | MIPS Assembly | Cypher (Neo4j query language) | Microsoft Power BI
 
 ## Relevant Undergraduate Coursework
