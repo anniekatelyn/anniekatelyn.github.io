@@ -18,14 +18,17 @@ layout: compress
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h3>{{ page.excerpt }}</h3>
-                    <!-- <h4>{{ page.date | date_to_string }}</h4> -->
                     <h4>{{ page.startdate }} - {{ page.enddate }}</h4>
                     {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
+                        <a class="btn zoombtn" href="{{site.url}}/projects/">
                     {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/work/">
-                    {% endif %}
-                        <i class="fa fa-chevron-left"></i>
+                        {% if page.research %}
+                            <a class="btn zoombtn" href="{{site.url}}/research/">
+                        {% else %}
+                            <a class="btn zoombtn" href="{{site.url}}/work/">
+                        {% endif %}
+                    {% endif %}    
+                    <i class="fa fa-chevron-left"></i>
                     </a>
                 </div>
                 {{ content }}
