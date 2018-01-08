@@ -11,8 +11,8 @@ comments: false
 </style>
 -->
 
-![AuthorPhoto](authorphoto.jpeg){: .callout}
-
+<!-- ![AuthorPhoto](authorphoto.jpeg){: .callout}
+ -->
 <center><a class="btn zoombtn" href="{{site.url}}"><i class="fa fa-home"></i></a></center>
 
 <!-- <img src="authorphoto.png" alt="{{ site.title }} photo" img style="float: right;"> -->

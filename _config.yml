@@ -1,6 +1,7 @@
 # Site
 title:              Annie K Tang
-bio:                'Data Scientist. Developer. Dog lover.'
+# bio:                'Data Scientist. Developer. Dog lover.'
+bio:                "Research Engineer at Apple"
 description:        "C.S. | Stats"
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +9,7 @@ logo:               'assets/img/logo.png'
 logosmall:          'assets/img/logo-small.png'
 authorphoto:        'assets/img/authorphoto.png'
 authorphotosmall:   'assets/img/authorphotosmall.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/Dull.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://anniekatelyn.github.io

@@ -69,6 +69,17 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 }
+.close {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 4rem;
+	height: 4rem;
+	text-indent:4rem;
+	overflow: hidden;
+	white-space: nowrap;
+}
 .container {
 	width: 36rem;
 	max-width: 550px;
